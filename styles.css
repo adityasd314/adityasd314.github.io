@@ -1,40 +1,85 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+section {
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin: 0;
+}
+
+/* Additional Styles for a More Modern Look */
+.about, .skills, .portfolio, .social-media, .contact {
+  margin-bottom: 40px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   section {
-    margin: 20px;
+    margin: 10px;
+    padding: 15px;
   }
-  
-  h2 {
-    color: #333;
+}
+
+/* Improved Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
   }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
+
+  header p {
+    font-size: 1em;
   }
-  
-  a {
-    text-decoration: none;
-    color: #0066cc;
+
+  section {
+    padding: 15px;
   }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .contact p {
-    margin: 0;
-  }
-  
+}
